@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniket Chavan | Data Engineer Portfolio</title>
+    <meta property="og:title" content="Aniket Chavan | Data Engineer Portfolio">
+    <meta property="og:description" content="Microsoft DP-600 Certified Data Engineer specializing in Azure, Databricks, and Fabric.">
+    <meta property="og:image" content="images/profile.png">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -60,7 +64,6 @@
         .profile-card-glow:hover::after { opacity: 0.4; }
         .profile-card-glow:hover { transform: translateY(-10px) scale(1.02); }
 
-        /* Journey Glowing Effect */
         .journey-card { transition: all 0.5s ease; position: relative; }
         .journey-card:hover { 
             box-shadow: 0 0 30px rgba(249, 115, 22, 0.15);
@@ -91,7 +94,7 @@
 <body>
 
     <div class="side-menu hidden lg:flex">
-        <a href="aniket_data_engineer_azure_fabric_sql.pdf" download="Aniket_Chavan_Resume" class="side-item glass text-orange-500 pulse-icon" title="Download Resume">
+        <a href="Aniket_Chavan_Data_Eningeer.pdf" download="Aniket_Chavan_Resume" class="side-item glass text-orange-500 pulse-icon" title="Download Resume">
             <i data-lucide="file-down"></i>
         </a>
         <a href="https://linkedin.com/in/aniketc75" target="_blank" class="side-item glass text-white" title="LinkedIn">
@@ -112,8 +115,9 @@
             <div class="hidden md:flex space-x-6 text-xs font-semibold uppercase tracking-widest">
                 <a href="#home" class="hover:text-orange-500">Home</a>
                 <a href="#about" class="hover:text-orange-500">About</a>
-                <a href="#journey" class="hover:text-orange-500">Education</a>
                 <a href="#projects" class="hover:text-orange-500">Projects</a>
+                <a href="#skills" class="hover:text-orange-500">Skills</a>
+                <a href="#journey" class="hover:text-orange-500">Education</a>
                 <a href="#contact" class="hover:text-orange-500">Contact</a>
             </div>
             <button class="md:hidden text-white" onclick="toggleMenu()">
@@ -123,8 +127,9 @@
         <div id="mobile-menu" class="md:hidden mt-2 mx-4 glass rounded-3xl p-6 space-y-4 text-center">
             <a href="#home" onclick="toggleMenu()" class="block text-sm font-bold uppercase">Home</a>
             <a href="#about" onclick="toggleMenu()" class="block text-sm font-bold uppercase">About</a>
-            <a href="#journey" onclick="toggleMenu()" class="block text-sm font-bold uppercase">Education</a>
             <a href="#projects" onclick="toggleMenu()" class="block text-sm font-bold uppercase">Projects</a>
+            <a href="#skills" onclick="toggleMenu()" class="block text-sm font-bold uppercase">Skills</a>
+            <a href="#journey" onclick="toggleMenu()" class="block text-sm font-bold uppercase">Education</a>
             <a href="#contact" onclick="toggleMenu()" class="block text-sm font-bold uppercase">Contact</a>
         </div>
     </nav>
@@ -134,13 +139,13 @@
             <div class="reveal">
                 <span class="text-orange-500 font-semibold tracking-widest text-xs uppercase mb-4 block">Data Engineer Portfolio</span>
                 <h1 class="text-4xl md:text-7xl font-bold mb-4 leading-tight">Hello, my name is <br><span class="text-gradient">Aniket</span></h1>
-                <h2 class="text-xl md:text-2xl font-bold mb-6 italic">DATA ENGINEER</h2>
+                <h2 class="text-xl md:text-2xl font-bold mb-6 italic text-gray-300">DATA ENGINEER</h2>
                 <p class="text-gray-400 text-base md:text-lg mb-8 max-w-lg leading-relaxed">
                     I build robust data pipelines using <b>Azure Databricks</b> and <b>Microsoft Fabric</b> and hold the <b>Microsoft Certified DP-600 Fabric Analytics Engineer Associate</b> certification.
                 </p>
                 <div class="flex flex-wrap items-center gap-4">
                     <a href="#contact" class="px-8 py-4 bg-gradient-to-r from-red-600 to-orange-500 rounded-lg font-bold transition-all hover:scale-105">Get in Touch</a>
-                    <a href="aniket_data_engineer_azure_fabric_sql.pdf" download="Aniket_Chavan_Resume" class="px-8 py-4 glass border border-orange-500/30 rounded-lg font-bold transition-all hover:bg-orange-500/10 flex items-center gap-2">
+                    <a href="Aniket_Chavan_Data_Eningeer.pdf" download="Aniket_Chavan_Resume" class="px-8 py-4 glass border border-orange-500/30 rounded-lg font-bold transition-all hover:bg-orange-500/10 flex items-center gap-2">
                         <i data-lucide="download" class="w-4 h-4"></i> Download CV
                     </a>
                     <div class="flex space-x-4">
@@ -176,30 +181,32 @@
         </div>
     </section>
 
-    <section id="journey">
-        <h2 class="text-center text-3xl md:text-4xl font-bold mb-20 text-gradient">Education & Certification</h2>
-        <div class="max-w-5xl mx-auto relative">
-            <div class="timeline-line"></div>
-            <div class="mb-20 flex flex-col md:flex-row md:justify-between items-center w-full reveal">
-                <div class="hidden md:block w-5/12"></div>
-                <div class="z-20 flex items-center bg-gradient-to-br from-orange-500 to-red-600 w-10 h-10 rounded-full shadow-lg mb-4 md:mb-0 shadow-orange-500/50">
-                    <i data-lucide="graduation-cap" class="mx-auto w-5 h-5 text-white"></i>
+    <section id="projects">
+        <div class="text-center">
+            <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-16 relative inline-block">
+                PRO<span class="text-orange-500">JECTS</span>
+                <div class="absolute -bottom-2 left-0 w-1/2 h-1 bg-orange-500 rounded-full"></div>
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+                <div class="group glass rounded-3xl overflow-hidden flex flex-col border border-white/10 hover:border-orange-500/50 transition-all duration-500">
+                    <div class="h-48 md:h-64 relative cursor-zoom-in overflow-hidden" onclick="openImgModal('images/project1.png')">
+                        <img src="images/project1.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <div class="p-6 md:p-8 text-left">
+                        <h3 class="text-xl md:text-2xl font-bold text-white mb-4">Banking: Real-Time Fraud Detection</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6 line-clamp-3">Real-time credit card fraud detection pipeline using Kafka, Databricks Structured Streaming and Delta Lake. Implemented watermark-based deduplication.</p>
+                        <button onclick="showProject('banking')" class="w-full py-3 bg-orange-500 text-white rounded-xl font-bold text-xs uppercase hover:bg-orange-600 transition-all">Project More Details</button>
+                    </div>
                 </div>
-                <div class="journey-card glass rounded-3xl w-full md:w-5/12 p-6 md:p-8 border border-white/10 hover:border-orange-500/50 transition-all">
-                    <span class="text-orange-500 text-xs font-bold uppercase mb-2 block">2021 - 2025</span>
-                    <h3 class="font-bold text-white text-xl md:text-2xl mb-2">B.E. in Electronic and Computer Engineering</h3>
-                    <p class="text-gray-400 text-sm">MGM College of Engineering & Technology, Aurangabad</p>
-                </div>
-            </div>
-            <div class="mb-20 flex flex-col md:flex-row-reverse md:justify-between items-center w-full reveal">
-                <div class="hidden md:block w-5/12"></div>
-                <div class="z-20 flex items-center bg-gradient-to-br from-red-600 to-orange-500 w-10 h-10 rounded-full shadow-lg mb-4 md:mb-0 shadow-red-500/50">
-                    <i data-lucide="award" class="mx-auto w-5 h-5 text-white"></i>
-                </div>
-                <div class="journey-card glass rounded-3xl w-full md:w-5/12 p-6 md:p-8 border border-white/10 text-left md:text-right hover:border-red-500/50 transition-all relative">
-                    <span class="text-red-500 text-xs font-bold uppercase mb-2 block tracking-widest">Microsoft Certified</span>
-                    <h3 class="font-bold text-white text-xl md:text-2xl mb-2">Fabric Analytics Engineer (DP-600)</h3>
-                    <button onclick="openModal('certModal')" class="mt-4 px-6 py-2 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full font-bold text-[10px] uppercase shadow-lg hover:scale-105 transition-transform">View Credential</button>
+                <div class="group glass rounded-3xl overflow-hidden flex flex-col border border-white/10 hover:border-red-500/50 transition-all duration-500">
+                    <div class="h-48 md:h-64 relative cursor-zoom-in overflow-hidden" onclick="openImgModal('images/project2.png')">
+                        <img src="images/project2.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <div class="p-6 md:p-8 text-left">
+                        <h3 class="text-xl md:text-2xl font-bold text-white mb-4">Retail: End-to-End Pipeline</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6 line-clamp-3">Retail data pipeline ingesting data from multiple REST APIs into Microsoft Fabric Lakehouse using Medallion Architecture.</p>
+                        <button onclick="showProject('retail')" class="w-full py-3 bg-red-600 text-white rounded-xl font-bold text-xs uppercase hover:bg-red-700 transition-all">Project More Details</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -251,59 +258,38 @@
         </div>
     </section>
 
-    <section id="projects">
-        <div class="text-center">
-            <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-16 relative inline-block">
-                PRO<span class="text-orange-500">JECTS</span>
-                <div class="absolute -bottom-2 left-0 w-1/2 h-1 bg-orange-500 rounded-full"></div>
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-                <div class="group glass rounded-3xl overflow-hidden flex flex-col border border-white/10">
-                    <div class="h-48 md:h-64 relative cursor-zoom-in overflow-hidden" onclick="openImgModal('images/project1.png')">
-                        <img src="images/project1.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                    </div>
-                    <div class="p-6 md:p-8 text-left">
-                        <h3 class="text-xl md:text-2xl font-bold text-white mb-4">Banking: Real-Time Fraud Detection</h3>
-                        <p class="text-gray-400 text-sm leading-relaxed mb-6">Structured Streaming pipeline using Medallion Architecture to flag fraudulent transactions.</p>
-                        <button onclick="showProject('banking')" class="w-full py-3 bg-orange-500 text-white rounded-xl font-bold text-xs uppercase hover:bg-orange-600 transition-all">Project More Details</button>
-                    </div>
+    <section id="journey">
+        <h2 class="text-center text-3xl md:text-4xl font-bold mb-20 text-gradient uppercase">Education & Certification</h2>
+        <div class="max-w-5xl mx-auto relative">
+            <div class="timeline-line"></div>
+            <div class="mb-20 flex flex-col md:flex-row md:justify-between items-center w-full reveal">
+                <div class="hidden md:block w-5/12"></div>
+                <div class="z-20 flex items-center bg-gradient-to-br from-orange-500 to-red-600 w-10 h-10 rounded-full shadow-lg mb-4 md:mb-0 shadow-orange-500/50">
+                    <i data-lucide="graduation-cap" class="mx-auto w-5 h-5 text-white"></i>
                 </div>
-                <div class="group glass rounded-3xl overflow-hidden flex flex-col border border-white/10">
-                    <div class="h-48 md:h-64 relative cursor-zoom-in overflow-hidden" onclick="openImgModal('images/project2.png')">
-                        <img src="images/project2.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                    </div>
-                    <div class="p-6 md:p-8 text-left">
-                        <h3 class="text-xl md:text-2xl font-bold text-white mb-4">Retail: Metadata ETL Framework</h3>
-                        <p class="text-gray-400 text-sm leading-relaxed mb-6">Metadata-driven framework in Microsoft Fabric for automated analytics.</p>
-                        <button onclick="showProject('retail')" class="w-full py-3 bg-red-600 text-white rounded-xl font-bold text-xs uppercase hover:bg-red-700 transition-all">Project More Details</button>
-                    </div>
+                <div class="journey-card glass rounded-3xl w-full md:w-5/12 p-6 md:p-8 border border-white/10 hover:border-orange-500/50 transition-all">
+                    <span class="text-orange-500 text-xs font-bold uppercase mb-2 block tracking-widest">2021 - 2025</span>
+                    <h3 class="font-bold text-white text-xl md:text-2xl mb-2">B.E. in Electronic and Computer Engineering</h3>
+                    <p class="text-gray-400 text-sm">MGM College of Engineering & Technology, Aurangabad</p>
+                </div>
+            </div>
+            <div class="mb-20 flex flex-col md:flex-row-reverse md:justify-between items-center w-full reveal">
+                <div class="hidden md:block w-5/12"></div>
+                <div class="z-20 flex items-center bg-gradient-to-br from-red-600 to-orange-500 w-10 h-10 rounded-full shadow-lg mb-4 md:mb-0 shadow-red-500/50">
+                    <i data-lucide="award" class="mx-auto w-5 h-5 text-white"></i>
+                </div>
+                <div class="journey-card glass rounded-3xl w-full md:w-5/12 p-6 md:p-8 border border-white/10 text-left md:text-right hover:border-red-500/50 transition-all relative">
+                    <span class="text-red-500 text-xs font-bold uppercase mb-2 block tracking-widest">Microsoft Certified</span>
+                    <h3 class="font-bold text-white text-xl md:text-2xl mb-2">Fabric Analytics Engineer (DP-600)</h3>
+                    <button onclick="openModal('certModal')" class="mt-4 px-6 py-2 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full font-bold text-[10px] uppercase shadow-lg hover:scale-105 transition-transform">View Credential</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <div id="projectModal" onclick="closeModal('projectModal')">
-        <div class="modal-content relative glass p-8 rounded-3xl" onclick="event.stopPropagation()">
-            <button onclick="closeModal('projectModal')" class="absolute top-4 right-4 text-gray-400"><i data-lucide="x"></i></button>
-            <div id="projectDetailsContent"></div>
-        </div>
-    </div>
-
-    <div id="certModal" onclick="closeModal('certModal')">
-        <div class="modal-content relative max-w-2xl" onclick="event.stopPropagation()">
-            <img src="images/dp600.png" class="w-full rounded-lg shadow-2xl border border-white/10">
-        </div>
-    </div>
-
-    <div id="imgModal" onclick="closeModal('imgModal')">
-        <div class="modal-content relative max-w-5xl" onclick="event.stopPropagation()">
-            <img id="modalImg" src="" class="w-full rounded-xl shadow-2xl">
-        </div>
-    </div>
-
     <section id="contact">
         <div class="max-w-6xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-12 text-gradient uppercase tracking-widest">Connect</h2>
+            <h2 class="text-3xl font-bold mb-12 text-gradient uppercase tracking-widest">Connect With Me</h2>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                 <a href="mailto:chavananiket7588@gmail.com" class="contact-item glass p-6 rounded-3xl text-[10px] truncate">
                     <i data-lucide="mail" class="mx-auto mb-4 text-orange-500"></i>
@@ -328,6 +314,25 @@
     <footer class="py-10 text-center text-gray-500 text-xs border-t border-white/5">
         &copy; 2026 Aniket Chavan | Data Engineer
     </footer>
+
+    <div id="projectModal" onclick="closeModal('projectModal')">
+        <div class="modal-content relative glass p-8 rounded-3xl" onclick="event.stopPropagation()">
+            <button onclick="closeModal('projectModal')" class="absolute top-4 right-4 text-gray-400"><i data-lucide="x"></i></button>
+            <div id="projectDetailsContent"></div>
+        </div>
+    </div>
+
+    <div id="certModal" onclick="closeModal('certModal')">
+        <div class="modal-content relative max-w-2xl" onclick="event.stopPropagation()">
+            <img src="images/dp600.png" class="w-full rounded-lg shadow-2xl border border-white/10">
+        </div>
+    </div>
+
+    <div id="imgModal" onclick="closeModal('imgModal')">
+        <div class="modal-content relative max-w-5xl" onclick="event.stopPropagation()">
+            <img id="modalImg" src="" class="w-full rounded-xl shadow-2xl">
+        </div>
+    </div>
 
     <script>
         lucide.createIcons();
@@ -370,51 +375,54 @@
                 title: "Real-Time Fraud Detection",
                 content: `
                     <div class="space-y-6 text-left">
-                        <p class="text-gray-400 text-sm">A high-velocity streaming pipeline designed to identify suspicious transactions using a 5-minute sliding window analysis.</p>
+                        <p class="text-orange-500 font-bold uppercase text-[10px] tracking-widest">Summary</p>
+                        <p class="text-gray-300 text-sm leading-relaxed">I worked on a real-time credit card fraud detection pipeline using Kafka, Databricks Structured Streaming and Delta Lake. I designed Bronze-Silver-Gold architecture, implemented watermark-based deduplication, handled late arriving data, optimized Delta tables using Z-ordering, and built batch backfill jobs.</p>
+                        
                         <div class="grid md:grid-cols-2 gap-8">
                             <div>
-                                <h4 class="text-orange-500 font-bold uppercase text-[10px] mb-4 tracking-widest">Technical Stack</h4>
+                                <h4 class="text-orange-500 font-bold uppercase text-[10px] mb-4 tracking-widest">Technology</h4>
                                 <ul class="text-gray-300 text-xs space-y-2">
-                                    <li><span class="text-white">• Ingestion:</span> Azure Event Hubs / Kafka</li>
-                                    <li><span class="text-white">• Processing:</span> Databricks (Structured Streaming)</li>
-                                    <li><span class="text-white">• Storage:</span> Delta Lake (Medallion Architecture)</li>
-                                    <li><span class="text-white">• Quality:</span> Great Expectations for validation</li>
+                                    <li>• Azure Databricks, Kafka</li>
+                                    <li>• Delta Lake, ADLS, PySpark</li>
                                 </ul>
                             </div>
                             <div>
-                                <h4 class="text-orange-500 font-bold uppercase text-[10px] mb-4 tracking-widest">Key Features</h4>
+                                <h4 class="text-orange-500 font-bold uppercase text-[10px] mb-4 tracking-widest">Key Deliverables</h4>
                                 <ul class="text-gray-300 text-xs space-y-2">
-                                    <li>• Automated Bronze to Gold transformation logic.</li>
-                                    <li>• Real-time flagging for transaction spikes.</li>
-                                    <li>• ACID compliant upserts using Delta Lake.</li>
-                                    <li>• Schema evolution for dynamic data formats.</li>
+                                    <li>• Designed Medallion Architecture using Delta Lake.</li>
+                                    <li>• Built real-time ingestion via Kafka.</li>
+                                    <li>• Implemented watermark deduplication logic.</li>
+                                    <li>• Optimized tables using Z-Ordering.</li>
+                                    <li>• Built BI dashboards for fraud trends.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>`
             },
             retail: {
-                title: "Metadata ETL Framework",
+                title: "Retail Data Pipeline",
                 content: `
                     <div class="space-y-6 text-left">
-                        <p class="text-gray-400 text-sm">A dynamic, configuration-driven ETL framework built to handle 100+ retail tables without manual pipeline creation.</p>
+                        <p class="text-red-500 font-bold uppercase text-[10px] tracking-widest">Summary</p>
+                        <p class="text-gray-300 text-sm leading-relaxed">Built an end-to-end retail data pipeline ingesting data from multiple REST APIs (Sales, Product, Inventory, Customer) into Microsoft Fabric Lakehouse. Implemented Medallion Architecture (Bronze, Silver, Gold) using Fabric Lakehouse and Data Warehouse to process and structure analytics-ready data. Transformed JSON data using PySpark and SQL and automated ingestion with Fabric Data Pipelines, including incremental loading and API pagination.</p>
+                        
                         <div class="grid md:grid-cols-2 gap-8">
                             <div>
-                                <h4 class="text-red-500 font-bold uppercase text-[10px] mb-4 tracking-widest">Architecture</h4>
+                                <h4 class="text-red-500 font-bold uppercase text-[10px] mb-4 tracking-widest">Technology</h4>
                                 <ul class="text-gray-300 text-xs space-y-2">
-                                    <li><span class="text-white">• Platform:</span> Microsoft Fabric (Data Factory)</li>
-                                    <li><span class="text-white">• Logic:</span> Notebook-based Control Table</li>
-                                    <li><span class="text-white">• Storage:</span> OneLake / Lakehouse</li>
-                                    <li><span class="text-white">• Modeling:</span> Star Schema (Fact & Dimension)</li>
+                                    <li>• Microsoft Fabric</li>
+                                    <li>• Fabric Data Pipelines</li>
+                                    <li>• Lakehouse (Delta), PySpark</li>
+                                    <li>• Fabric Data Warehouse</li>
                                 </ul>
                             </div>
                             <div>
-                                <h4 class="text-red-500 font-bold uppercase text-[10px] mb-4 tracking-widest">Deliverables</h4>
+                                <h4 class="text-red-500 font-bold uppercase text-[10px] mb-4 tracking-widest">Architecture</h4>
                                 <ul class="text-gray-300 text-xs space-y-2">
-                                    <li>• Reduced pipeline maintenance by 70%.</li>
-                                    <li>• Incremental loading using Watermark columns.</li>
-                                    <li>• Power BI integration for Inventory Health.</li>
-                                    <li>• Centralized logging and error management.</li>
+                                    <li>• Multi-API REST Ingestion.</li>
+                                    <li>• Medallion Data Structure.</li>
+                                    <li>• Automated Incremental Loading.</li>
+                                    <li>• API Pagination Logic.</li>
                                 </ul>
                             </div>
                         </div>
